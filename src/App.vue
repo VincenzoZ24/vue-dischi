@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <HeaderPage />
     <MainPage />
     <CardSongs />
@@ -25,5 +25,8 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container{
+  background-color:  rgba(30, 45, 59, 1);
 }
 </style>
