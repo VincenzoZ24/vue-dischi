@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+
     <div class="container_songs">
         <CardSongs
       v-for="card in arrSongs"
@@ -8,6 +9,8 @@
       :title="card.title"
       :author="card.author"
       :year="card.year"
+      :genre="card.genere"
+
     />
     </div>
 
@@ -22,11 +25,13 @@ export default {
   name: 'MainPage',
   components: {
     CardSongs,
+
   },
   data() {
     return {
       arrSongs: null,
       urlApi: 'https://flynn.boolean.careers/exercises/api/array/music',
+      cerca: '',
     };
   },
   created() {
