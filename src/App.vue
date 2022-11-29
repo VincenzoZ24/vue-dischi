@@ -2,20 +2,18 @@
   <div class="container">
     <HeaderPage />
     <MainPage />
-    <CardSongs />
   </div>
 </template>
 
 <script>
 import HeaderPage from '@/components/HeaderPage.vue';
 import MainPage from '@/components/MainPage.vue';
-import CardSongs from '@/components/CardSongs.vue';
 
 export default {
   components: {
     HeaderPage,
     MainPage,
-    CardSongs,
+
   },
 };
 </script>
