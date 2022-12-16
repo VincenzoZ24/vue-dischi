@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <HeaderPage />
-    <MainPage />
+    <MainPage :selectedValue="selectedValue"/>
+
   </div>
 </template>
 
@@ -10,11 +11,16 @@ import HeaderPage from '@/components/HeaderPage.vue';
 import MainPage from '@/components/MainPage.vue';
 
 export default {
+  name: 'App',
+  data() {
+
+  },
   components: {
     HeaderPage,
     MainPage,
 
   },
+
 };
 </script>
 

@@ -1,17 +1,14 @@
 <template>
   <div class="bar_header">
-    <SelectCard/>
+
   </div>
 </template>
 
 <script>
-import SelectCard from '@/components/SelectCard.vue';
 
 export default {
   name: 'HeaderPage',
-  components: {
-    SelectCard,
-  },
+
 };
 </script>
 

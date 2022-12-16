@@ -31,7 +31,7 @@ export default {
     return {
       arrSongs: null,
       urlApi: 'https://flynn.boolean.careers/exercises/api/array/music',
-      cerca: '',
+
     };
   },
   created() {
